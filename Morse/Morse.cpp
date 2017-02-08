@@ -147,7 +147,6 @@ void Morse::writeSingleCharMessage(char message) {
 }
 
 void Morse::checkForValidChar() {
-	// TODO: use map that implements binary search and search the map here instead of using the inverse alphabet
 	int i = getMorseIndex(current_char_binary);
 	if (i > -1) {
 		current_char = alphabet_english[i];
