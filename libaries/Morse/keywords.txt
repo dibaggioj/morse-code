@@ -1,0 +1,5 @@
+Morse	KEYWORD1
+Code	KEYWORD1
+
+writeMessage 	KEYWORD2
+readMessage		KEYWORD2
