@@ -133,8 +133,9 @@ void Morse::reset() {
 }
 
 void Morse::writeMessage(char *message) {
-    for (int i = 0; i < strlen(message); i++) {
-        writeChar(message[i]);
+    char * c;
+    for (c = message; *c != '\0'; ++c) {
+        writeChar(*c);
     }
     
     finishMessage();
